@@ -5,7 +5,7 @@
 
 <main>
 	<Map />
-	<!-- <Ribbon /> -->
+	<Ribbon />
 </main>
 
 <style>

@@ -27,7 +27,7 @@
 			boundsPadding: 0.1,
 		})
 
-		zoomer.smoothZoom(1700, 400, 1.7)
+		// zoomer.smoothZoom(1700, 400, 1.7)
 
 		container.addEventListener('click', (event) => {})
 	})
@@ -44,8 +44,12 @@
 		backface-visibility: hidden;
 		stroke: hsl(49, 40%, 87%);
 		fill: hsla(49, 40%, 87%, 0.2);
+	}
 
-		&:hover {
+	:global(.region) {
+		fill: hsla(49, 40%, 87%, 1);
+
+		&:hover.no {
 			/* &:global(.selected) { */
 			/* fill: red; */
 			/* transform: translate3d(0, -5px, 0); */
@@ -53,12 +57,15 @@
 		}
 	}
 
-	:global(.region) {
-		fill: hsla(49, 40%, 87%, 1);
-	}
-
 	:global(#graticules) {
 		stroke: #838383;
+	}
+
+	:global(#lines > *) {
+		stroke: red;
+		stroke-width: 2;
+		stroke-dasharray: 4;
+		fill: transparent;
 	}
 
 	:global(#sphere) {

@@ -25,6 +25,7 @@
 			position: absolute;
 			background-color: black;
 			/* padding: 0.1em 0em; */
+			padding-bottom: 0.1em;
 			font-size: 1.2em;
 		}
 
