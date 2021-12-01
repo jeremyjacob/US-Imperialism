@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Map from './lib/Map.svelte'
+	import Ribbon from './lib/Ribbon.svelte'
 </script>
 
 <main>
-	<h1><span>American Imperialism</span></h1>
 	<Map />
+	<!-- <Ribbon /> -->
 </main>
 
 <style>

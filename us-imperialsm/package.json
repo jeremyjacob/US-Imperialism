@@ -16,8 +16,12 @@
     "svelte-check": "^2.1.0",
     "svelte-preprocess": "^4.7.2",
     "svelte-zoom": "^1.0.16",
+    "svg-pan-zoom": "^3.6.1",
     "tslib": "^2.2.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "panzoom": "^9.4.2"
   }
 }
