@@ -1,11 +1,13 @@
 <script lang="ts">
+	import List from './lib/List.svelte'
 	import Map from './lib/Map.svelte'
 	import Ribbon from './lib/Ribbon.svelte'
 </script>
 
 <main>
 	<Map />
-	<Ribbon />
+	<List />
+	<!-- <Ribbon /> -->
 </main>
 
 <style>
