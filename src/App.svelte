@@ -10,7 +10,7 @@
 	const input = () => (lastInput = Date.now())
 
 	setInterval(() => {
-		if (Date.now() - lastInput > 1000 * 30) selected.set('')
+		if (Date.now() - lastInput > 1000 * 60 * 3) selected.set('')
 	}, 1000)
 
 	document.addEventListener('keydown', input)
