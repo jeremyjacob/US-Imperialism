@@ -35,7 +35,7 @@ As it turned out, Alaska is rich in natural resources. Americans eventually foun
 		The US sends the USS Maine to Havana Harbor to help “protect” Cubans. The ship mysteriously explodes, and the US declares war on Spain. Despite the US going to war in order to help Cuba, the Teller Amendment was passed to say that the US would not try to take over the island. A few months later, the US has control of Cuba, and negotiations for the end of the Spanish-American War begin. The war was finally ended by the Treaty of Paris. The US pays Spain $20 million in exchange for Guam, the Philippines, and Puerto Rico.`,
 	},
 	philippines: {
-		coords: [480, 80],
+		coords: [480, 30],
 		height: 396,
 		country: 'Philippines',
 		body: `The Philippines were also under Spanish control at the time when the US was allowing itself to be swept off its feet by any and every country that came its way. The Philippines were just America's type with their tropical climate, perfect location near Asia and islandy physique. Then the Spanish-American war happens, and America buys the Philippines. 

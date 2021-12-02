@@ -44,10 +44,11 @@
 			container.querySelector('.line-' + value)?.classList.add('selected')
 			if (value)
 				container.querySelector('.' + value)?.classList.add('selected')
-			else
+			else {
 				container
-					.querySelector('region.selected')
+					.querySelector('.region.selected')
 					?.classList.remove('selected')
+			}
 
 			container.querySelectorAll('.region').forEach((_country) => {
 				const country = _country as SVGElement
